@@ -48,7 +48,7 @@ import API_URL from "../../../config/global";
       </Button>
       <Container class="logout">
       <div>
-      <a href="http://localhost:5173/Login"><Button variant="primary" type="submit">
+      <a><Button variant="primary" type="submit">
         Logout
       </Button></a>
     </div>
