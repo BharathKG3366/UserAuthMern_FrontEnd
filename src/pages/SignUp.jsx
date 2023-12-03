@@ -3,7 +3,7 @@ import { Container, Form, Button, FormSelect } from "react-bootstrap";
 import "../styles/SignUp.css";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import API_URL from "../../../config/global";
+import API_URL from "../../config/global";
 
 export const SignUp = () => {
   const [formData, setFormData] = useState({
